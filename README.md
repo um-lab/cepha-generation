@@ -4,4 +4,4 @@ This is the official repository of our paper ***Towards Better Cephalometric Lan
 
 Our code and dataset will be released soon.
 
-More detailed experiments are available in [Project website](https://mike-guo233.github.io/anatomy-informed-cepha-generation/)
+More detailed experiments are available in [Project website](https://mike-guo233.github.io/anatomy-informed-cepha-generation/).
