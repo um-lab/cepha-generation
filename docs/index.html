@@ -154,7 +154,7 @@
               </span> -->
               <!-- Code Link. -->
               <span class="link-block">
-                <a href="https://github.com/MIKE-GUO233/anatomy-informed-cepha-generation"
+                <a href="https://github.com/um-lab/cepha-generation"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-github"></i>
@@ -262,10 +262,10 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          Cephalometric landmark detection is essential for orthodontic diagnostics and treatment planning. Nevertheless, the scarcity of scarce samples in data collection and the extensive effort required for manual annotation have significantly impeded the availability of diverse and large-scale datasets. This limitation has restricted the effectiveness of deep learning-based detection methods, particularly those based on large-scale vision models.
-          To address these challenges, we have developed an innovative data generation method capable of producing cephalometric X-ray images along with corresponding annotations. Our approach initiates by constructing cephalometric landmark annotations using anatomical priors. Then, we employ a diffusion-based generator to create realistic X-ray images that correspond closely with these annotations.
-          To further refine the generation process and ensure precise control in producing diverse samples, we introduce a novel prompt cephalometric X-ray image dataset. This dataset includes real cephalometric X-ray images and detailed medical text prompts describing the images. By leveraging these detailed prompts, our method finetunes the generation process to control different styles and attributes. Consequently, our innovations overcome the difficulties associated with manual data collection and label annotation, facilitating the creation of a rich and diverse training data set.
-          To validate the efficacy of our approach, we integrated large-scale detection models into our task. Experimental results demonstrate that training with the generated data substantially enhances the performance. 
+          Cephalometric landmark detection is essential for orthodontic diagnostics and treatment planning. Nevertheless, the scarcity of samples in data collection and the extensive effort required for manual annotation have significantly impeded the availability of diverse datasets. This limitation has restricted the effectiveness of deep learning-based detection methods, particularly those based on large-scale vision models.
+          To address these challenges, we have developed an innovative data generation method capable of producing diverse cephalometric X-ray images along with corresponding annotations without human intervention. To achieve this, our approach initiates by constructing new cephalometric landmark annotations using anatomical priors. Then, we employ a diffusion-based generator to create realistic X-ray images that correspond closely with these annotations.
+          To achieve precise control in producing samples with different attributes, we introduce a novel prompt cephalometric X-ray image dataset. This dataset includes real cephalometric X-ray images and detailed medical text prompts describing the images. By leveraging these detailed prompts, our method improves the generation process to control different styles and attributes. 
+          Facilitated by the large, diverse generated data, we introduce large-scale vision detection models into the cephalometric landmark detection task to improve accuracy.  Experimental results demonstrate that training with the generated data substantially enhances the performance. 
           Compared to methods without using the generated data, our approach improves the Success Detection Rate (SDR) by 6.5%, attaining a notable 82.2%.
         </div>
       </div>
@@ -287,10 +287,10 @@
 </section>
 
 
-<section class="section">
+<!-- <section class="section">
   <div class="container is-max-desktop">
 
-    <div class="columns is-centered">
+    <div class="columns is-centered"> -->
 
       <!-- Visual Effects. -->
       <!-- <div class="column">
@@ -325,7 +325,7 @@
 
         </div>
       </div> -->
-    </div>
+    <!-- </div> -->
     <!--/ Matting. -->
 
     <!-- Animation. -->
@@ -444,7 +444,7 @@
          href="./static/videos/nerfies_paper.pdf">
         <i class="fas fa-file-pdf"></i>
       </a>
-      <a class="icon-link" href="https://mike-guo233.github.io/" class="external-link" disabled>
+      <a class="icon-link" href="https://github.com/um-lab/" class="external-link" disabled>
         <i class="fab fa-github"></i>
       </a>
     </div>
